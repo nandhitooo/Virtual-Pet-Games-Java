@@ -105,28 +105,33 @@ public abstract class Pet {
         happiness = clamp(happiness + 5);
         System.out.println(name + " eats happily!" + getSound());
     }
+    
     public void play(int fun) {
         happiness = clamp(happiness + fun);
         energy = clamp(energy - 10);
         hunger = clamp(hunger - 10);
         System.out.println(name + " is playing joyfully!" + getSound());
     }
+
     public void clean() {
         cleanliness = 100;
         happiness = clamp(happiness + 10);
         System.out.println(name + " is now clean and happy!" + getSound());
     }
+
     public void sleep() {
         energy = 100;
         health = clamp(health + 5);
         age++;
         System.out.println(name + " is sleeping peacefully..... zzz");
     }
+
     public void giveMedicine() {
         health = clamp(health + 20);
         happiness = clamp(happiness - 5);
         System.out.println(name + " doesn't like medicine :(");
     }
+
     public void update() {
         hunger = clamp(hunger + 5);
         energy = clamp(energy - 5);
@@ -144,9 +149,11 @@ public abstract class Pet {
     public boolean isSick() {
         return health < 30;
     }
+
     public boolean isVeryHappy() {
         return happiness > 80;
     }
+
     public boolean needsAttention() {
         return hunger > 70 || cleanliness < 30 || happiness < 30;
     }
@@ -158,6 +165,7 @@ public abstract class Pet {
         if (health >= 20) return "🟠 Poor";
         return "🔴 Critical";
     }
+
     protected String getMeter(int value) {
         StringBuilder meter = new StringBuilder("[");
         int bars = value / 10;
