@@ -139,7 +139,7 @@ public class VirtualPet {
                 pet.clean();
             }
             case 4 -> {
-                System.out.println("\nLetting " + pet.getName() + " sleep...");
+                System.out.println("\nLetting " + pet.getName() + " sleeps...");
                 pet.sleep();
             }
             case 5 -> useItemMenu();
