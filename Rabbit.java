@@ -30,4 +30,10 @@ public class Rabbit extends Pet {
         System.out.println(getName() + " twitches its nose curiously.....🐰");
         setHappiness(getHappiness() + 5);
     }
+
+    @Override
+    public void play(int fun) {
+        super.play(fun);
+        curiousity = Math.min(100, curiousity + fun / 2);
+    }
 }
