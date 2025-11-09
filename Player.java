@@ -25,7 +25,7 @@ public class Player {
     }
 
     //assessor methods
-    public  void adoptPet(Pet pet) {
+    public void adoptPet(Pet pet) {
         this.pet = pet;
         System.out.println("congratulations " + playerName + "! You have adopted " + pet.getName() + " the " + pet.getSpecies() + "!");
     }
