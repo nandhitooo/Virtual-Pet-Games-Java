@@ -30,6 +30,27 @@ Disini saya mengerjakan secara individu
 - **Paradigm:** Object-Oriented Programming
 - **Platform:** Console/Text-Based
 - **Tools:** Scanner untuk input dan Random untuk sistem event
+
+## 🎮 Fitur Game
+ ### ✨ Fitur Utama:
+ 1. **Multiple Pet Type:** Ada Dog🐶, Cat🐱, dan Rabbit🐰 yang memiliki behavior berbeda
+ 2. **Need System:** 5 kebutuhan utama (Health, Happiness, Hunger, Cleanliness, Energy)
+ 3. **Inventory System:** Untuk menyimpan item seperti makanan, mainan, dan obat-obatan
+ 4. **Day Cycle:** Sistem hari dengan stat decay alami
+ 5. **Random Events:** Untuk menambah variasi gameplay
+ 6. **Scoring System:** Sistem skor berdasarkan dengan kondisi Pet
+ 7. **Species-Specific Interaction:** Interaksi berbeda berdasarkan spesies Pet
+
+ ### 🐕‍🦺 Jenis Hewan Peliharaan 
+ 1. **Dog🐶:** Loyal terhadap pemilik
+ 2. **Cat🐱:** Mempunyai sifat seperti majikan 
+ 3. **Rabbit🐰:** Mempunyai rasa ingin tahu yang tinggi
+
+ ### 🛒 Item yang Tersedia
+ 1. **Food:** Regular food, Premium food, dan Favorite food
+ 2. **Toy:** Ball, Yarn Ball, dan Tunnel
+ 3. **Medicine:** Health potion yang digunakan untuk menyembuhkan Pet ketika sakit
+ 
 ## 📁 Struktur Folder
 ### Struktur Proyek
 
@@ -111,4 +132,4 @@ Project ini dibuat untuk memenuhi tugas **Pemrograman Berorientasi Objek**. Educ
 
 
 ### Selamat Bermain! 🐾
-Take a good care of your pet guys😁😁😀
+Take good care of your pet guys😁😁😀
