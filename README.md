@@ -132,4 +132,4 @@ Project ini dibuat untuk memenuhi tugas **Pemrograman Berorientasi Objek**. Educ
 
 
 ### Selamat Bermain! 🐾
-Take good care of your pet guys😁😁😀
+Take a good care of your pet guys😁😁😀
