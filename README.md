@@ -52,7 +52,7 @@ Disini saya mengerjakan secara individu
  3. **Medicine:** Health potion yang digunakan untuk menyembuhkan Pet ketika sakit
  
 ## 📁 Struktur Folder
-### Struktur Proyek
+### 📂 Struktur Proyek
 
 Berikut adalah tata letak folder dan file utama dalam proyek ini:
 
