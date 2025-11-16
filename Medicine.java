@@ -1,3 +1,4 @@
+//Medicine Class extending Item
 public class Medicine extends Item {
     private int healingPower;
 

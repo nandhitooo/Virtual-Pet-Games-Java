@@ -1,3 +1,4 @@
+//Toy Class extending Item
 public class Toy extends Item {
     private int funValue;
     private String type;

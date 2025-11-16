@@ -1,3 +1,4 @@
+//Food Class extending Item
 public class Food extends Item {
     private int nutrition;
     private String type;
