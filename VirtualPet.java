@@ -1,6 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
+//Main Logic
 public class VirtualPet {
     private Player player;
     private Scanner scanner;
