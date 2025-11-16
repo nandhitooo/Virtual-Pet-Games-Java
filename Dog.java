@@ -1,3 +1,4 @@
+//Dog Class extending Pet
 public class Dog extends Pet {
     private int loyalty;
 

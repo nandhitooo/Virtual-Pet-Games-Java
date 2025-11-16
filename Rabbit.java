@@ -1,3 +1,4 @@
+//Rabbit Class extending Pet
 public class Rabbit extends Pet {
     private int curiousity;
 
