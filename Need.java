@@ -1,3 +1,4 @@
+//Need Class representing a pet's need
 public class Need {
     private String name;
     private int decayRate;
