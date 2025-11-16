@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
+//Player Class
 public class Player {
     private String playerName;
     private int coins;
