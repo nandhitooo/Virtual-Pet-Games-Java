@@ -53,7 +53,7 @@ Disini saya mengerjakan secara individu
 ## 📁 Struktur Folder
 ### Struktur Proyek
 Berikut adalah tata letak folder dan file utama dalam proyek ini:
-'''
+'''sh
 📂UML_Diagram/
 ├── UML_Diagram.jpg         #UML Diagram
 ├── UML_Diagram.drawio      #UML Diagram
