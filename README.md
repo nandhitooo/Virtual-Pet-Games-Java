@@ -50,28 +50,49 @@ Disini saya mengerjakan secara individu
  2. **Toy:** Ball, Yarn Ball, dan Tunnel
  3. **Medicine:** Health potion yang digunakan untuk menyembuhkan Pet ketika sakit
  
-## 📁 Struktur Folder
-### Struktur Proyek
-Berikut adalah tata letak folder dan file utama dalam proyek ini:
-'''sh
-📂UML_Diagram/
-├── UML_Diagram.jpg         #UML Diagram
-├── UML_Diagram.drawio      #UML Diagram
-└── UML_Diagram.png         #UML Diagram
-Cat.java                    #Class Kucing
-Dog.java                    #class Anjing
-Food.java                   #class Makanan
-Item.java                   #class Item <<abstract>>
-Main.java                   #class Main (entry point)
-Medicine.java               #class Obat
-Need.java                   #class Kebutuhan untuk Pet
-Pet.java                    #class Pet <<abstract>>
-Player.java                 #class Player
-Rabbit.java                 #class Kelinci
-README.md                   #File README
-Toy.java                    #class Mainan
-VirtualPet.java             #class VirtualPet untuk main logic & game looping
+## 🔨 Development
+### 📁 Struktur Folder
+
 '''
+📂UML_Diagram/
+├── UML_Diagram.jpg         
+├── UML_Diagram.drawio      
+└── UML_Diagram.png         
+Cat.java                    
+Dog.java                    
+Food.java                   
+Item.java                   
+Main.java                   
+Medicine.java               
+Need.java                   
+Pet.java                    
+Player.java                 
+Rabbit.java                 
+README.md                   
+Toy.java                    
+VirtualPet.java             
+'''
+
+### 📰 Deskripsi File
+
+- Cat.java kelas Kucing  
+- Dog.java kelas Anjing  
+- Food.java kelas Makanan  
+- Item.java kelas Item abstrak  
+- Main.java entry point  
+- Medicine.java kelas Obat  
+- Need.java kelas Kebutuhan hewan  
+- Pet.java kelas Pet abstrak  
+- Player.java kelas Player  
+- Rabbit.java kelas Kelinci  
+- Toy.java kelas Mainan  
+- VirtualPet.java logic dan game loop  
+
+### 🎮 Cara Menjalankan
+
+1. Buka project di IDE Java.  
+2. Jalankan Main.java.  
+3. Ikuti instruksi di layar untuk berinteraksi dengan hewan.
 
 ## 🎯 Cara Bermain
 
