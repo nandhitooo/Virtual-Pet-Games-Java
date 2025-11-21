@@ -52,24 +52,27 @@ Disini saya mengerjakan secara individu
  
 ## 📁 Struktur Folder
 ### Struktur Proyek
-
 Berikut adalah tata letak folder dan file utama dalam proyek ini:
+'''
+📂UML_Diagram/
+├── UML_Diagram.jpg         #UML Diagram
+├── UML_Diagram.drawio      #UML Diagram
+└── UML_Diagram.png         #UML Diagram
+Cat.java                    #Class Kucing
+Dog.java                    #class Anjing
+Food.java                   #class Makanan
+Item.java                   #class Item <<abstract>>
+Main.java                   #class Main (entry point)
+Medicine.java               #class Obat
+Need.java                   #class Kebutuhan untuk Pet
+Pet.java                    #class Pet <<abstract>>
+Player.java                 #class Player
+Rabbit.java                 #class Kelinci
+README.md                   #File README
+Toy.java                    #class Mainan
+VirtualPet.java             #class VirtualPet untuk main logic & game looping
+'''
 
-- 📂UML_Diagram/
-- ├── UML_Diagram.drawio
-- └── UML_Diagram.png
-- Cat.java
-- Dog.java
-- Food.java
-- Item.java
-- Main.java
-- Medicine.java
-- Need.java
-- Pet.java
-- Player.java
-- Rabbit.java
-- Toy.java
-- VirtualPet.java
 ## 🎯 Cara Bermain
 
 **Alur Game Dasar**
@@ -90,6 +93,7 @@ Berikut adalah tata letak folder dan file utama dalam proyek ini:
 ### 💀 Kalah
 - **Health = 0** -> pet kamu mati
 - **Critical** terlalu lama
+
 ## 💻 Implementasi OOP
 
 ✅ Class & Object (6+ Class)
@@ -114,6 +118,7 @@ Berikut adalah tata letak folder dan file utama dalam proyek ini:
 ✅ Composition
 - VirtualPetGame mengatur lifecycle semua object
 - Need objects dibuat dalam Pet
+
 ## 🧪 Testing
 **Test Case yang Dilakukan**
 1. **Pet Creation** -> Berhasil membuat berbagai jenis pet
@@ -121,14 +126,16 @@ Berikut adalah tata letak folder dan file utama dalam proyek ini:
 3. **Inventory System** -> Item dapat dibeli dan digunakan
 4. **Day Progression** -> Hari berjalan dengan baik
 5. **Game Over Conditions** -> Win/lose condition terpicu
+
 ## 📞 Kontak dan Support
 Untuk pertanyaan atau issues terkait project ini, silakan hubungi:
 
 - Email: [dhitopratama2005@gmail.com]
 - Repository: [https://github.com/nandhitooo/Virtual-Pet-Games-Java]
+
 ## 📄 License
 Project ini dibuat untuk memenuhi tugas **Pemrograman Berorientasi Objek**. Educational purposes only.
 
 
 ### Selamat Bermain! 🐾
-Take good care of your pet guys😁😁😀
+Take a good care of your pet guys😁😁😀
