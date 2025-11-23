@@ -64,7 +64,7 @@ Cat.java
 Dog.java                    
 Food.java                   
 Item.java                   
-Main.java                   
+Main.java                   #entry point
 Medicine.java               
 Need.java                   
 Pet.java                    
